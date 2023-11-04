@@ -1,0 +1,46 @@
+.userList {
+  flex: 4;
+}
+
+.userListUser {
+  display: flex;
+  align-items: center;
+}
+
+.userListImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.userListEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #29a645;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.userListEdit:hover{
+  background-color: #25953e;
+  transform: scale(1.1);
+}
+
+.userListDelete {
+  color: #db3546;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.userListDelete:hover {
+  color: #c5303f;
+  transform: scale(1.2);
+}
+
+.customDataGrid .MuiDataGrid-row { /* Customize row height */
+  height: 100px; /* Adjust the desired height in pixels */
+}
